@@ -1,4 +1,4 @@
-import css from "../assets/Cafelnfo.module.css";
+import css from "../../assets/Cafelnfo.module.css";
 
 function Cafelnfo() {
   return (
