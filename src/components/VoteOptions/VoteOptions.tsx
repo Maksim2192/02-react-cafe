@@ -7,7 +7,7 @@ interface VoteOptionsProps {
   canReset: boolean;
 }
 
-function VoteOptification({ onVote, onReset, canReset }: VoteOptionsProps) {
+function VoteOptions({ onVote, onReset, canReset }: VoteOptionsProps) {
   return (
     <div className={css.container}>
       <button className={css.button} onClick={() => onVote("good")}>Good</button>
@@ -20,4 +20,4 @@ function VoteOptification({ onVote, onReset, canReset }: VoteOptionsProps) {
   );
 }
 
-export default VoteOptification;
+export default VoteOptions;
